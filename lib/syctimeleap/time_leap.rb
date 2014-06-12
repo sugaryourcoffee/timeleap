@@ -1,3 +1,5 @@
+require 'date'
+
 # Provides date operations like in_1_day
 module SycTimeleap
 
