@@ -4,7 +4,9 @@ Creates dynamically date methods to jump through time
 
 ## Usage
 
-    time_leap = SycTimeLeap::TimeLeap.new
+    require 'syctimeleap/time_leap.rb'
+
+    time_leap = SycTimeleap::TimeLeap.new
     time_leap.now
     => #<Date: 2014-06-12 ((2456823j,0s,0n),+0s,2299161j)> 
     time_leap.in2days
